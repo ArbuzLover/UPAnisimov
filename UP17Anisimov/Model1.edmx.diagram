@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="4ba7bd3d3ef84091996f0d7351f8fa19" Name="Diagram1">
+        <EntityTypeShape EntityType="UP17BURMALDAModel.AuthorRoleRequests" Width="1.5" PointX="5.25" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="UP17BURMALDAModel.BookGenres" Width="1.5" PointX="7.5" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="UP17BURMALDAModel.Books" Width="1.5" PointX="5.25" PointY="11.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="UP17BURMALDAModel.Complaints" Width="1.5" PointX="7.5" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="UP17BURMALDAModel.Genres" Width="1.5" PointX="5.25" PointY="18" IsExpanded="true" />
+        <EntityTypeShape EntityType="UP17BURMALDAModel.ReadingLists" Width="1.5" PointX="10.5" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="UP17BURMALDAModel.Reviews" Width="1.5" PointX="10.5" PointY="15.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="UP17BURMALDAModel.Roles" Width="1.5" PointX="0.75" PointY="11.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="UP17BURMALDAModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="UP17BURMALDAModel.UnfreezeRequests" Width="1.5" PointX="10.5" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="UP17BURMALDAModel.Users" Width="1.5" PointX="3" PointY="9.75" IsExpanded="true" />
+        <AssociationConnector Association="UP17BURMALDAModel.FK__AuthorRol__UserI__5812160E" ManuallyRouted="false" />
+        <AssociationConnector Association="UP17BURMALDAModel.FK__AuthorRol__UserI__7D439ABD" ManuallyRouted="false" />
+        <AssociationConnector Association="UP17BURMALDAModel.FK__BookGenre__BookI__59063A47" ManuallyRouted="false" />
+        <AssociationConnector Association="UP17BURMALDAModel.FK__BookGenre__BookI__7E37BEF6" ManuallyRouted="false" />
+        <AssociationConnector Association="UP17BURMALDAModel.FK__BookGenre__Genre__59FA5E80" ManuallyRouted="false" />
+        <AssociationConnector Association="UP17BURMALDAModel.FK__BookGenre__Genre__7F2BE32F" ManuallyRouted="false" />
+        <AssociationConnector Association="UP17BURMALDAModel.FK__Books__AuthorID__00200768" ManuallyRouted="false" />
+        <AssociationConnector Association="UP17BURMALDAModel.FK__Books__AuthorID__5AEE82B9" ManuallyRouted="false" />
+        <AssociationConnector Association="UP17BURMALDAModel.FK__Complaint__BookI__01142BA1" ManuallyRouted="false" />
+        <AssociationConnector Association="UP17BURMALDAModel.FK__Complaint__BookI__5BE2A6F2" ManuallyRouted="false" />
+        <AssociationConnector Association="UP17BURMALDAModel.FK__ReadingLi__BookI__03F0984C" ManuallyRouted="false" />
+        <AssociationConnector Association="UP17BURMALDAModel.FK__ReadingLi__BookI__5EBF139D" ManuallyRouted="false" />
+        <AssociationConnector Association="UP17BURMALDAModel.FK__Reviews__BookID__05D8E0BE" ManuallyRouted="false" />
+        <AssociationConnector Association="UP17BURMALDAModel.FK__Reviews__BookID__60A75C0F" ManuallyRouted="false" />
+        <AssociationConnector Association="UP17BURMALDAModel.FK__UnfreezeR__BookI__07C12930" ManuallyRouted="false" />
+        <AssociationConnector Association="UP17BURMALDAModel.FK__UnfreezeR__BookI__628FA481" ManuallyRouted="false" />
+        <AssociationConnector Association="UP17BURMALDAModel.FK__Complaint__Revie__02084FDA" ManuallyRouted="false" />
+        <AssociationConnector Association="UP17BURMALDAModel.FK__Complaint__Revie__5CD6CB2B" ManuallyRouted="false" />
+        <AssociationConnector Association="UP17BURMALDAModel.FK__Complaint__UserI__02FC7413" ManuallyRouted="false" />
+        <AssociationConnector Association="UP17BURMALDAModel.FK__Complaint__UserI__5DCAEF64" ManuallyRouted="false" />
+        <AssociationConnector Association="UP17BURMALDAModel.FK__ReadingLi__UserI__04E4BC85" ManuallyRouted="false" />
+        <AssociationConnector Association="UP17BURMALDAModel.FK__ReadingLi__UserI__5FB337D6" ManuallyRouted="false" />
+        <AssociationConnector Association="UP17BURMALDAModel.FK__Reviews__UserID__06CD04F7" ManuallyRouted="false" />
+        <AssociationConnector Association="UP17BURMALDAModel.FK__Reviews__UserID__619B8048" ManuallyRouted="false" />
+        <AssociationConnector Association="UP17BURMALDAModel.FK__Users__RoleID__09A971A2" ManuallyRouted="false" />
+        <AssociationConnector Association="UP17BURMALDAModel.FK__Users__RoleID__6477ECF3" ManuallyRouted="false" />
+        <AssociationConnector Association="UP17BURMALDAModel.FK__UnfreezeR__UserI__08B54D69" ManuallyRouted="false" />
+        <AssociationConnector Association="UP17BURMALDAModel.FK__UnfreezeR__UserI__6383C8BA" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
