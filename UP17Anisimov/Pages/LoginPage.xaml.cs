@@ -45,7 +45,7 @@ namespace UP17Anisimov.Pages
             }
 
             Core.CurrentUser = user;
-
+            if(Core.CurrentUser.IsFrozen == true) { MessageBox.Show("Ваша учётная запись заморожена!"); }
             NavigationService.Navigate(new CatalogPage());
         }
 
