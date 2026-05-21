@@ -49,24 +49,8 @@ namespace UP17Anisimov.Pages
                 TxtCreatedAt.Text = user.CreatedAt.ToString("dd.MM.yyyy");
 
                 // Определяем роль
-                string roleName = "";
-                switch (user.RoleID)
-                {
-                    case 1:
-                        roleName = "Администратор";
-                        break;
-                    case 2:
-                        roleName = "Пользователь";
-                        // Показываем кнопку подачи заявки
-                        BtnRequestAuthor.Visibility = Visibility.Visible;
-                        break;
-                    case 3:
-                        roleName = "Автор";
-                        break;
-                    default:
-                        roleName = "Неизвестно";
-                        break;
-                }
+                string roleName = user.Roles.RoleName;
+                
                 TxtRole.Text = roleName;
 
                 // Проверяем статус заморозки
