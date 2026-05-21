@@ -30,7 +30,7 @@ namespace UP17Anisimov
             // Настройка Sidebar в зависимости от роли пользователя
             SetupSidebar();
 
-            // Открываем каталог по умолчанию
+            
             MainFrame.Navigate(new LoginPage());
         }
 
@@ -75,12 +75,12 @@ namespace UP17Anisimov
 
         private void BtnAdmin_Click(object sender, RoutedEventArgs e)
         {
-            //MainFrame.Navigate(new AdminPage());
+            MainFrame.Navigate(new AdminPage());
         }
 
         private void BtnAuthor_Click(object sender, RoutedEventArgs e)
         {
-            //MainFrame.Navigate(new AuthorPage());
+            MainFrame.Navigate(new AuthorPage());
         }
 
         private void BtnWarning_Click(object sender, RoutedEventArgs e)

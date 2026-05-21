@@ -110,9 +110,7 @@
                                            Stretch="UniformToFill">
                                         <Image.Source>
                                             <Binding Path="CoverImagePath">
-                                                <Binding.TargetNullValue>
-                                                    <ImageSource>/Images/no_cover.png</ImageSource>
-                                                </Binding.TargetNullValue>
+                                               
                                             </Binding>
                                         </Image.Source>
                                     </Image>

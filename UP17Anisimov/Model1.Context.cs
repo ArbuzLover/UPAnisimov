@@ -13,10 +13,10 @@ namespace UP17Anisimov
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class UP17BURMALDAEntities2 : DbContext
+    public partial class UpAnisimovEntities2 : DbContext
     {
-        public UP17BURMALDAEntities2()
-            : base("name=UP17BURMALDAEntities2")
+        public UpAnisimovEntities2()
+            : base("name=UpAnisimovEntities2")
         {
         }
     

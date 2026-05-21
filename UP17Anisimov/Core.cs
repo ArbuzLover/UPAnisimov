@@ -10,7 +10,7 @@ namespace UP17Anisimov
 {
     internal class Core
     {
-        public static UP17BURMALDAEntities2 Context = new UP17BURMALDAEntities2();
+        public static UpAnisimovEntities2 Context = new UpAnisimovEntities2();
         public static Users CurrentUser { get; set; }
     }
 }
